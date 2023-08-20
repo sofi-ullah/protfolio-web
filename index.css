@@ -211,8 +211,33 @@ img{
 }
 .contect .contect-title{
     text-align: left;
+    padding-bottom: 20px;
+}
+.contect-p{
+    font-size: 15px;
+    line-height: 20px;
 }
 .icons img{
-    width: 50px;
+    width: 25px;
     height: auto;
+    padding-top: 20px;
+}
+.contect input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+}
+input{
+    height: 30px;
+}
+.btn-footer{
+    padding: 15px;
+    background: #ee1919;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    width: 70px;
 }
