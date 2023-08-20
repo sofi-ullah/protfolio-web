@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+}
+.header-banner{
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    height: 800px;
+    background-color: #eec7bb59;
+}
+/* header navgtion css */
+nav {
+    display: flex;
+    margin: 30px 150px;
+    justify-content: space-between;
+}
+h1 span{
+    color: coral;
+}
+nav h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0 0 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin: 20px;
+}
+.btn {
+    padding: 15px;
+    background: coral;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* banner style */
+.banner{
+    display: flex;
+    margin: 0 50px 0 150px;
+    align-items: center;
+    
+}
+div h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+div h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.porichoi{
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn-two{ 
+    border: 2px solid;    
+    border-radius: 5px;  
+    color: #e37e29;    
+    margin: 0 20px;   
+    padding: 17px 30px;    
+    font-size: 20px;
+}
+img{
+    width: 500px;
+    height: 666px;
+}
+/* main section styel*/
+.main-section{
+    margin: 50px 150px;
+}
+.Abuot {
+    margin: 0;
+    width: 827px;
+    height: 400px;
+    background-color: #be938538;
+}
+.hedeing{
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.comiti{
+    color: #757575;
+    text-align: center;
+    padding: 20px 90px;
+}
+.list{
+    width: 827px;
+    text-align: center;
+}
+.blog {
+    display: inline-block; 
+    padding: 10px 30px;
+    text-align: center;
+}
+.blog1 {
+    display: inline-block; 
+    padding: 10px 30px;
+    text-align: center;
+}
+.blog2{
+    display: inline-block; 
+    padding: 10px 30px;
+    text-align: center;
+}
+.blog3{
+    display: inline-block; 
+    padding: 10px 30px;
+    text-align: center;
+}
+/* main exmpol css*/
+.exampol{
+    padding: 40px 60px;
+    text-align: center;
+}
+.sironame{
+       font-size: 35px;
+}
+.ditels{
+    font-size: 16px;
+    color: #757575;
+    line-height: 25px;
+}
+/* skill css */
+.section{
+    margin-top: 130px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 20px;
+
+}
+.skill img{
+    width: 30px;
+    height: auto;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #919090;
+    font-size: 15px;
+
+}
+/* resume css */
+.resume-title{
+    text-align: center;  
+    margin-bottom: 50px;   
+}
+.resume-contaner{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin: 30px 0;
+
+}
+.resum-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.date{
+    color:#919090;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.description{
+    color: #757575;
+    font-size:13px;
+    line-height: 18px;
+    
+}
+
+.lud{
+    text-align: center;
+    margin: 40px 0;
+}
+/*contrct style*/
+.contect{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+}
+.contect .contect-title{
+    text-align: left;
+}
+.icons img{
+    width: 50px;
+    height: auto;
+}
