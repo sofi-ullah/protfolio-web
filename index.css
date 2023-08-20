@@ -6,12 +6,12 @@
     background-repeat: no-repeat;
     background-position: bottom right,left;
     height: 800px;
-    background-color: #eec7bb59;
+    background-color: #f2e0db59;
 }
 /* header navgtion css */
 nav {
     display: flex;
-    margin: 30px 150px;
+    padding: 30px 150px;
     justify-content: space-between;
 }
 h1 span{
@@ -71,7 +71,7 @@ div h1{
 }
 img{
     width: 500px;
-    height: 666px;
+    height: 648px;
 }
 /* main section styel*/
 .main-section{
